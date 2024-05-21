@@ -54,6 +54,12 @@ a{
     while also being able to be used in context will flexbox, so that it 
     adjust coordingly towards the changing of the viewport of the browser.*/
 
+
+button #btn1
+{
+
+}
+
 button{
     background-color: #3382F6;
     color:#E5E7EB;
@@ -103,6 +109,7 @@ button{
     flex: 1 1 700px;
     flex-direction: column;
     background-color: #E5E7EB;
+    align-items: center;
 }
 .midBack .title{
     text-align: center;
@@ -164,6 +171,15 @@ button{
     align-self: flex-end;
     margin:0px;
     padding:0px;
+}
+
+.signup-block
+{
+    width: 700px;
+    height: 125px;
+    background-color: #3382F6;
+    border-radius: 24px;
+    margin-bottom: 24px;
 }
 
 .footer
