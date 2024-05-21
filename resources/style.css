@@ -99,8 +99,71 @@ button{
 
 .midBack
 {
-    flex: 1 1 1000px;
+    display: flex;
+    flex: 1 1 700px;
+    flex-direction: column;
     background-color: #E5E7EB;
+}
+.midBack .title{
+    text-align: center;
+}
+
+.random-information-display
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-display{
+    display: flex;
+    justify-content: space-evenly;
+    flex-basis: 50px;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.box-display .box{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100px;
+}
+
+.box-display .box.border
+{
+    width: 125px;
+    height: 125px;
+    border-style: solid;
+    border-color: #3382F6;
+    border-radius: 12px;
+}
+
+.quote-block
+{
+    padding:20px;
+    margin-bottom: 15%;
+}
+
+.quote-block .quote-container
+{
+    display:flex;
+    flex-direction: column;
+}
+
+.quote-block .quote-container h3
+{
+    padding: 20px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    margin: 0px;
+    padding: 0px;
+}
+
+.quote-block .quote-container h5
+{
+    align-self: flex-end;
+    margin:0px;
+    padding:0px;
 }
 
 .footer
