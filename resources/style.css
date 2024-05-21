@@ -13,6 +13,7 @@ body{
 {
     flex-basis: 350px;
     background-color: #1F2937;
+    padding: 12px;
 }
 .topBar
 {
@@ -71,8 +72,11 @@ button{
 
 .topBack .information.Display
 {
+    margin-top: 32px;
+
     display: flex;
     color:#E5E7EB;
+    justify-content: space-between;
 }
 
 .topBack .information.Title
@@ -83,6 +87,7 @@ button{
 .topBack .information.Para
 {
     margin-top: 0px;
+    font-weight:300;
 }
 .signup-info
 {
@@ -90,6 +95,7 @@ button{
     flex-direction: column;
     flex-basis: 500px;
 }
+
 
 .midBack
 {
