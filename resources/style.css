@@ -142,7 +142,7 @@ a{
     gap: 32px;
     flex-basis: 50px;
     text-align: center;
-    margin-bottom: 15%;
+    margin-bottom: 7%;
 }
 
 .box-display .box{
@@ -229,11 +229,10 @@ a{
     margin:0px;
 }
 
-
-
-
 .footer
 {
-    flex:1 1 80px;
+    text-align: center;
     background-color: #1F2937;
+    color: #E5E7EB;
+    font-weight: 400;
 }
