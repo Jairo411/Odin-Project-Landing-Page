@@ -11,15 +11,18 @@ body{
 }
 .topBack
 {
-    flex-basis: 350px;
     background-color: #1F2937;
     padding: 12px;
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    
 }
 .topBar
 {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: #1F2937;
 }
 
@@ -55,13 +58,9 @@ a{
     adjust coordingly towards the changing of the viewport of the browser.*/
 
 
-button #btn1
+#btn1
 {
-
-}
-
-button{
-    background-color: #3382F6;
+    background-color:#3382F6;
     color:#E5E7EB;
     border-radius: 12px;
     border:none;
@@ -72,6 +71,22 @@ button{
     font-weight: 900;
 }
 
+#btn2
+{
+    background-color:#3382F6;
+    color:#E5E7EB;
+    border-radius: 12px;
+    border:none;
+    width: 125px;
+    height:35px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    border-color: #E5E7EB;
+    border-style: solid;
+}
+
+
 .mini-link{
     font-size: 18px;   
 }
@@ -79,10 +94,10 @@ button{
 .topBack .information.Display
 {
     margin-top: 32px;
-
     display: flex;
     color:#E5E7EB;
-    justify-content: space-between;
+    justify-content: center;
+    gap:64px
 }
 
 .topBack .information.Title
@@ -99,7 +114,7 @@ button{
 {
     display:flex;
     flex-direction: column;
-    flex-basis: 500px;
+    flex-basis: 400px;
 }
 
 
@@ -123,7 +138,8 @@ button{
 
 .box-display{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 32px;
     flex-basis: 50px;
     text-align: center;
     margin-bottom: 15%;
@@ -147,12 +163,14 @@ button{
 .quote-block
 {
     padding:20px;
-    margin-bottom: 15%;
+    margin-bottom: 100px;
 }
 
 .quote-block .quote-container
 {
     display:flex;
+    align-items: center;
+    justify-items: center;
     flex-direction: column;
 }
 
@@ -162,8 +180,15 @@ button{
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
+    width: 750px;
     margin: 0px;
     padding: 0px;
+}
+
+.quote-block .quote-container h5
+{
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .quote-block .quote-container h5
@@ -173,14 +198,39 @@ button{
     padding:0px;
 }
 
-.signup-block
+.signup-box
 {
-    width: 700px;
-    height: 125px;
+    width: 800px;
+    height: 100px;   
     background-color: #3382F6;
-    border-radius: 24px;
-    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    margin-bottom: 150px;
+    color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.signup-box .signup-block .signup-middle
+{
+    display: flex;
+    align-items: center;
+}
+
+.signup-box .signup-block h4
+{
+    margin: 0px;
+}
+
+.signup-box .signup-block .signup-middle p
+{
+    margin:0px;
+}
+
+
+
 
 .footer
 {
